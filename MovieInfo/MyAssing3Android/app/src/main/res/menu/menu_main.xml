@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.asu.msse.vckadam.myassing3android.MainActivity">
+    <item android:id="@+id/search_menu"
+        android:icon="@drawable/ic_action_name3"
+        android:title="@string/action_gimp"
+        app:showAsAction="always" />
+
+
+</menu>

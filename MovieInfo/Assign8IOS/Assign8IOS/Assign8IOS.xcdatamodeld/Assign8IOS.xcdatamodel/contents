@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Genre_Type" syncable="YES">
+        <attribute name="genretype" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Movie" syncable="YES">
+        <attribute name="movieActors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moviePlot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieRated" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieReleased" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieRuntime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieYear" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="genre_type" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Genre_Type" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Genre_Type" positionX="-63" positionY="45" width="128" height="60"/>
+        <element name="Movie" positionX="-378" positionY="72" width="128" height="180"/>
+    </elements>
+</model>
